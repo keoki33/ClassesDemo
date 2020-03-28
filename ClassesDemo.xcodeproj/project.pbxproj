@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		04665B14242F0F2A00B6B87D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04665B13242F0F2A00B6B87D /* main.swift */; };
+		04665B1B242F284D00B6B87D /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04665B1A242F284D00B6B87D /* Enemy.swift */; };
+		04665B1D242F2A5E00B6B87D /* Dragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04665B1C242F2A5E00B6B87D /* Dragon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		04665B10242F0F2A00B6B87D /* ClassesDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClassesDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		04665B13242F0F2A00B6B87D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		04665B1A242F284D00B6B87D /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		04665B1C242F2A5E00B6B87D /* Dragon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dragon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				04665B13242F0F2A00B6B87D /* main.swift */,
+				04665B1A242F284D00B6B87D /* Enemy.swift */,
+				04665B1C242F2A5E00B6B87D /* Dragon.swift */,
 			);
 			path = ClassesDemo;
 			sourceTree = "<group>";
@@ -120,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04665B1B242F284D00B6B87D /* Enemy.swift in Sources */,
 				04665B14242F0F2A00B6B87D /* main.swift in Sources */,
+				04665B1D242F2A5E00B6B87D /* Dragon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
